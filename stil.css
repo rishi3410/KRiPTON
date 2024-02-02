@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0 7%;
+
+    }
+    body{
+      background-color: rgb(22, 12, 36);
+    }
+
+    nav{
+        width: 100%;
+        padding: 2px 0;
+        display: flex;
+        align-items: center;
+    }
+    .ig{
+        margin-right: 25px;
+        width: 50px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    nav ul{
+        flex: 1; 
+    }
+    nav ul li{
+        display: inline;
+        margin: 10px 20px;
+    }
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    nav .btn{
+        color: #fff;
+        text-decoration:none;
+        border: 1px solid#fff;
+        border-radius: 10px;
+        padding: 10px 30px;
+    }
+    .content{
+        margin-top: 12%;
+    }
+    .content h1{
+        font-size: 88px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .content h1 span {
+        color: rgb(181, 126, 58);
+    }
+    .content p {
+        color: azure;
+    }
+
+    .coinlist{
+        position: absolute;
+        right: 10%;
+        bottom: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .coin{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin: 0 15px;
+        color: rgb(190, 136, 69);
+        border: 1px solid#fff;
+        padding: 10px 30px;
+        border-radius: 8px;
+    }
+    .coin img{
+        width: 40px;
+        margin-right: 10px;
+    }
+    .coin h3{
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    #cont2{
+        background-image: url(bg2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+    }
+    #cont2 h1{
+        padding: 10%;
+        color: bisque;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+ 
+  #xyz{
+    padding: 10%;
+    align-items: center;
+  }
+  #tradingview-widget-container__widget{
+    height: 100vh;
+    width: 100%;
+  }
+  #him{
+    color: bisque;
+    padding-left: 27%;
+    padding-top: 20px;
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .tradingview-widget-container{
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: -18%;
+  }
+
+
+  #b1{
+    margin-left: 80%;
+    background-color: red;
+    color: rgb(221, 207, 207);
+    font-family: fantasy;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    text-decoration: none;
+    margin-bottom: 10%;
+  }
+  #b2{
+    margin-left: 80%;
+    background-color: green;
+    color: rgb(221, 207, 207);
+    font-family: fantasy;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-top: 20%;
+    text-decoration: none;
+  }
+  #divi{
+    background-image: url(bg2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 350px;
+    width: 100%;
+    padding-top: 120px;
+   
+  }
+  
+  #divi h1{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 40%;
+    font-size: 44px;
+    color: blanchedalmond;
+    width: 50%;
+  }
+  #divi p{
+    color: #fff;
+    font-size: 25px;
+    margin-left:20%; ;
+    padding-bottom: 20%;
+    width: 50;
+  }
+  #img{
+    border-radius: 40px;
+    width: 250px;
+    margin-top: -300px;
+    margin-left: 70%;
+    padding-bottom: 3%;
+  }
+  #abc{
+    background-color: rgb(255, 255, 253);
+    color: rgb(255, 255, 253);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: -5%;
+}
+ #open{
+  margin-top: -50px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+ }
+ #qty{
+  font-size: larger;
+  color: beige;
+  margin-left: 75%;
+  margin-top: -200px;
+  padding-bottom: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .inputbox label{
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  }
+
+ .popup{
+  margin-top: -15%;
+  width: 400px;
+  background-color: rgba(71, 68, 68, 0.61);
+  color: aliceblue;    
+  backdrop-filter: blur(5px);
+  border-radius: 6px;
+  position: absolute;
+  background-position: center;
+  left: 35%;
+  text-align: center;
+  padding: 0 30px 30px;
+  visibility: hidden;
+  transition: tranform 0.4s, top 0.4s;
+ }
+ .open{
+  visibility: visible;
+  top: 50%;
+  
+ }
+ .popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+ }
+ .popup img{
+  padding-top: 50px;
+  width: 150px;
+ }
+ .popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #706ac8;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px;
+ }
+ 
+
+
+
+} 
