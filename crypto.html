@@ -78,7 +78,7 @@
    </div>
    <div class="inputbox" id="qty">
     <label for="Quantity">Quantity:</label>
-      <input type="number" required>
+      <input id="input" type="number">
       
  
    </div>
@@ -88,7 +88,7 @@
   <div class="popup" id="popopen">
     <img src="tick.avif">
     <h2>Transaction Success!</h2>
-    <button type="submit" onclick="closepopopen()">OK</button>
+   <button type="submit" onclick="document.getElementById('input').value= ''; closepopopen() ">OK</button>
   </div> </div>
    <div>
    <a href="#" class="btns" id="b2" class="btn" onclick="openpopclose()">SELL</a></div>
